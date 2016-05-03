@@ -1,4 +1,3 @@
-###################################
 #1 Find the last element of a list.
 
 list = ['a','b','c','d']
@@ -23,12 +22,9 @@ list = ['a','b','c','d','e','f','g']
 print list[3]
 
 
-
-
 #4
 somelist = ["a", "b", "c", "d"];
 print len(somelist)
-
 
 
 #5 reverse the list
@@ -41,19 +37,22 @@ list.reverse()
 print list
 
 
-#5 Addition of 2 numbers
-
-a= input("enter no")
-
-# b=raw_input("enter no")
-
-print a
-
-###################################
+'''
 #6 check string Find out whether a list is a palindrome
-# name = raw_input("Enter a string: ")
-# rev_str = reversed(name)
-# if list(name) == list(rev_str):
-#    print("It is palindrome")
-# else:
-#    print("It is not palindrome")
+str1=raw_input("Enter string")
+str2=str1[::-1]
+if str2==str1:
+print "String is palindrome"
+
+'''
+
+
+# 8
+b=[1,2,3,3,3,4,5,3,4,4,4,5]
+print list(set(b)) 
+
+
+
+#9 http://stackoverflow.com/questions/23660901/pack-consecutive-duplicates-of-list-elements-into-sublists
+#This 9th
+
